@@ -21,3 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/strong_CURA Healthcare Service'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/strong_CURA Healthcare Service'))
+
