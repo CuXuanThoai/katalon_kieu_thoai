@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_infokatalon.com_fa fa-dribbble fa-fw fa-3x</name>
+   <name>i_CURA Healthcare_fa fa-bars</name>
    <tag></tag>
-   <elementGuidId>a49af196-f3e4-456d-b771-e99ffa6682ec</elementGuidId>
+   <elementGuidId>ba086d5d-d63a-492c-a54c-b3ad7a842e8c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>i.fa.fa-dribbble.fa-fw.fa-3x</value>
+         <value>i.fa.fa-bars</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[3]/a/i</value>
+         <value>//a[@id='menu-toggle']/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,30 +22,38 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>4647d947-d0eb-4c30-b917-ff04c0ff2639</webElementGuid>
+      <webElementGuid>3e35e5a0-104a-4c22-a1d8-bcff154a9518</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fa fa-dribbble fa-fw fa-3x</value>
-      <webElementGuid>61da12e1-6fce-4168-926a-0a398cda038d</webElementGuid>
+      <value>fa fa-bars</value>
+      <webElementGuid>98a1b86e-0552-41e8-9c47-35b21da6faeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/footer[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-10 col-lg-offset-1 text-center&quot;]/ul[@class=&quot;list-inline&quot;]/li[3]/a[1]/i[@class=&quot;fa fa-dribbble fa-fw fa-3x&quot;]</value>
-      <webElementGuid>503821fd-1905-4b0d-96c7-230308237012</webElementGuid>
+      <value>id(&quot;menu-toggle&quot;)/i[@class=&quot;fa fa-bars&quot;]</value>
+      <webElementGuid>417c27e1-2a96-4c75-b72e-5797ebe00291</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='menu-toggle']/i</value>
+      <webElementGuid>9be8126a-5263-4d18-913b-b7b5aa49797f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]/a/i</value>
-      <webElementGuid>a4431cc9-52e2-47fb-8c4f-8ce009fdcb35</webElementGuid>
+      <value>//i</value>
+      <webElementGuid>a683b9e7-48e5-44a6-8e56-f86df6e076b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
