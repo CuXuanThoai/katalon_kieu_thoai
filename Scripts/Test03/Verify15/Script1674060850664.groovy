@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import org.openqa.selenium.Rectangle as Rectangle
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -24,4 +25,8 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Login'), 'Login')
+WebUI.takeAreaScreenshotAsCheckpoint('src03', new Rectangle(50, 25, 150, 100))
+
+WebUI.closeBrowser()
+
 

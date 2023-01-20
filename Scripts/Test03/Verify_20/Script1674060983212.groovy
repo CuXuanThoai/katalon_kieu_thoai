@@ -24,5 +24,5 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-dribbble fa-fw fa-3x'), 
     0)
 
-WebUI.takeAreaScreenshotAsCheckpoint('', a)
 
+WebUI.closeBrowser()

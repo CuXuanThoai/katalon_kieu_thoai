@@ -25,3 +25,5 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/i_CUR
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Login'))
 
+WebUI.closeBrowser()
+

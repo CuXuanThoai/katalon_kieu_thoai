@@ -23,3 +23,5 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/h3_We Care About Your Health'))
 
+WebUI.closeBrowser()
+

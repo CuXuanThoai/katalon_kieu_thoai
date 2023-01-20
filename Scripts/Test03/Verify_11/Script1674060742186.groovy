@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
+import org.openqa.selenium.Rectangle as Rectangle
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
@@ -25,3 +25,6 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/i_CUR
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Home'), 0)
 
+WebUI.takeAreaScreenshotAsCheckpoint('src11', new Rectangle(50, 25, 150, 100))
+
+WebUI.closeBrowser()
