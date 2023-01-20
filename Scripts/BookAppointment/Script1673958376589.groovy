@@ -31,6 +31,10 @@ WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/inp
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control'))
 
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeAreaScreenshotAsCheckpoint('login', a)
+
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')

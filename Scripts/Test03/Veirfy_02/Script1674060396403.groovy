@@ -21,6 +21,10 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
+WebUI.waitForAngularLoad(2)
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'), 
     0)
+
+WebUI.closeBrowser()
 

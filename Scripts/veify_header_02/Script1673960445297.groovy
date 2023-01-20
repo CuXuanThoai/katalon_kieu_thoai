@@ -25,3 +25,5 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcar
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/h3_We Care About Your Health'))
 
+WebUI.takeAreaScreenshot(a)
+
