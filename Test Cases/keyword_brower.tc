@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Mobile03</name>
+   <name>keyword_brower</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ef7002d7-3b9c-42e6-b5e6-0e410bbea596</testCaseGuid>
+   <testCaseGuid>30428532-4cf3-4a9c-bf09-e3f1dd4f5465</testCaseGuid>
 </TestCaseEntity>

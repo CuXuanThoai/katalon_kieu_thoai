@@ -6,12 +6,12 @@
    <elementGuidId>6a49a680-c6e3-498b-bcd7-f59cdf688ba7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>form.form-horizontal</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//form[@action='https://katalon-demo-cura.herokuapp.com/authenticate.php']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form.form-horizontal</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>form</value>
-      <webElementGuid>c4268de6-e417-4516-96ad-47239db9b6f1</webElementGuid>
+      <webElementGuid>801264a1-e53e-4464-95fb-0aa540cb3e32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-horizontal</value>
-      <webElementGuid>08cf38f1-ab7e-4c4c-ae07-bb437a2c4af4</webElementGuid>
+      <webElementGuid>b8fa9409-921e-45a3-b613-24db98b8959f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>action</name>
       <type>Main</type>
       <value>https://katalon-demo-cura.herokuapp.com/authenticate.php</value>
-      <webElementGuid>b06f4e57-b387-4ab3-af2a-9d4997951c6d</webElementGuid>
+      <webElementGuid>1a4c5fc0-f2b4-4f29-b600-2fe5e056d9c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>method</name>
       <type>Main</type>
       <value>post</value>
-      <webElementGuid>72d00ee1-9bae-4546-bc3e-1919c0290afa</webElementGuid>
+      <webElementGuid>d29d9096-abac-4d70-bfd9-2c5825514fa3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -91,7 +91,7 @@
                         
                     
                 </value>
-      <webElementGuid>ae53ac7a-a863-4401-8396-f8d75c734ee4</webElementGuid>
+      <webElementGuid>807f8ba7-b8a1-433e-8b76-80c1a4a17290</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;login&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-offset-3 col-sm-6&quot;]/form[@class=&quot;form-horizontal&quot;]</value>
-      <webElementGuid>6098a459-5c35-4e40-94a9-7a2fdae6695a</webElementGuid>
+      <webElementGuid>d7efa24e-6e67-4fbe-ab6e-3208a4397eb4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//form[@action='https://katalon-demo-cura.herokuapp.com/authenticate.php']</value>
-      <webElementGuid>eddabad6-70cf-47e9-8866-00b1d98fecc6</webElementGuid>
+      <webElementGuid>9ab597c0-e3ef-4916-84a1-062d86a58730</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='login']/div/div/div[2]/form</value>
-      <webElementGuid>47dec45c-01b4-49b3-abc5-ea239d62d67f</webElementGuid>
+      <webElementGuid>276900f7-ff7c-48f9-b3d1-30062feed9a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/following::form[1]</value>
-      <webElementGuid>f0266d2f-66dc-4951-abfe-ec73858c43be</webElementGuid>
+      <webElementGuid>d4b85eea-a123-473b-87e8-7ef79d626b76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,7 +131,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[1]/following::form[1]</value>
-      <webElementGuid>b13a3a64-e0ba-4de6-a019-fdb79101e347</webElementGuid>
+      <webElementGuid>79e51dc8-1839-42c9-ad7b-b8d5cb9a5fe5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -139,7 +139,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form</value>
-      <webElementGuid>4b0265b3-d979-41c5-9e84-1d91e6efb333</webElementGuid>
+      <webElementGuid>4c568790-f68d-4d34-ae55-b37e03e6d158</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -221,6 +221,6 @@
                         
                     
                 ')]</value>
-      <webElementGuid>4bae6535-af11-44d7-83b3-1ebd8b1a4dbb</webElementGuid>
+      <webElementGuid>dd1af712-0d39-4207-80b1-6fa44f37fe39</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

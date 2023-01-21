@@ -17,7 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\ad\\Downloads\\Twitch Live Game Streaming_v14.4.0_BETA_APKPure_Installer.apk', true)
+WebUI.openBrowser('')
 
-Mobile.closeApplication()
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.comment("Open web")
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control'))
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control'))
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'))
+
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3FTBPGMatM3C')
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
