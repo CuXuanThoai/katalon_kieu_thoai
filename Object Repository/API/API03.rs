@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>API)02</name>
+   <name>API03</name>
    <tag></tag>
    <elementGuidId>f228a367-80ba-4fff-b843-6c6801c468b8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
