@@ -17,16 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\ad\\Downloads\\Opera Mini browser beta_67.0.2254.64553_Apkpure.apk', true)
+Mobile.startApplication('C:\\Users\\ad\\Downloads\\APIDemos.apk', true)
 
-Mobile.startApplication('C:\\Users\\ad\\Downloads\\Opera Mini browser beta_67.0.2254.64553_Apkpure.apk', true)
+'btn Ok\r\n'
+Mobile.tap(findTestObject('Object Repository/Mobile/android.widget.Button - OK'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Mobile/android.widget.EditText - Search or enter address (1)'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Mobile/android.widget.TextView - Accessibility'), 0)
 
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.sendKeys(findTestObject('Object Repository/Mobile/android.widget.EditText - Search or enter address (2)'), 'google.com')
+'btn Ok\r\n'
+Mobile.tap(findTestObject('Object Repository/Mobile/android.widget.Button - OK'), 0)
 
 Mobile.closeApplication()
 
